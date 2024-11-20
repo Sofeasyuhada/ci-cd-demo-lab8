@@ -1,5 +1,8 @@
-name: CI/CD Pipeline
 
+
+
+name: CI/CD Pipeline
+ 
 on:
   push:
     branches:
@@ -51,4 +54,5 @@ jobs:
         # Replace with actual deployment commands
         ssh user@server 'bash deploy-script.sh'
 
-        ${{secrets.API_KEY}}.
+       
+
