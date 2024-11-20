@@ -50,3 +50,5 @@ jobs:
         echo "Deploying application..."
         # Replace with actual deployment commands
         ssh user@server 'bash deploy-script.sh'
+
+        ${{secrets.API_KEY}}.
