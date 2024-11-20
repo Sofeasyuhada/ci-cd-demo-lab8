@@ -1,2 +1,0 @@
-npm init -y    # Creates package.json
-npm install    # Installs dependencies and creates package-lock.json
