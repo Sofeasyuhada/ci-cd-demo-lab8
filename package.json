@@ -1,8 +1,16 @@
 {
   "name": "ci-cd-demo-lab8",
   "version": "1.0.0",
-  "description": "",
+  "description": "A short description of your project",
   "main": "index.js",
-  "scripts": {},
-  "dependencies": {}
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
 }
+
